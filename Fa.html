@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<meta name="keywords" content="???">
+	<meta name="description" content="???">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/javascript_menu.js"></script>
+	<title></title>
+</head>
+<body onload="started(),timePassed(),Per()">
+	<a href="#home"><div id="topBtn">^</div></a>
+	<div id="home"></div>
+	<div class="fullimage_1"><div title="Close the image" class="closebtn"> X </div></div>
+	<div class="fullimage_2"><div title="Close the image" class="closebtn"> X </div></div>
+	<div class="fullimage_3"><div title="Close the image" class="closebtn"> X </div></div>
+	<div class="fullimage_4"><div title="Close the image" class="closebtn"> X </div></div>
+	<div class="background"></div>
+	<div class="covermain"></div>
+<header>
+	<h2 class="logo"> <span class="highlight">Web</span>Illustrator </h2>
+	<div class="wrp">
+	<ul class="navbar">
+		<li class="navblock"><a href="#home">خانه</a></li>
+		<li class="navblock"><a href="#about">درباره</a></li>
+		<li class="navblock"><a href="#artss">هنرها</a></li>
+		<li class="navblock lawst"><a href="#">زبان</a>
+			<div class="lang-dropdown">
+               <a class="active" href="#home">Persian</a>
+               <a href="index.html">English</a>
+	        </div>
+        </li>
+	</ul>
+	<div id="menu" onclick="menufunc(this)">
+		<div class="bar1"></div>
+		<div class="bar2"></div>
+		<div class="bar3"></div>
+	</div>
+</div>
+</header>
+<div class="wrp_dropmenu">
+<ul id="navbar_drop">
+	    <a title="Change language to persian" class="fixedd" href="">Persian</a>
+		<li class="navblock_drop"><a href="#home">خانه</a></li>
+		<li class="navblock_drop"><a href="#about">درباره</a></li>
+		<li class="navblock_drop"><a href="#artss">هنرها</a></li>
+	</ul>
+</div>
+<div id="about"></div>
+<section id="heading">
+	<div class="container">
+		<div class="heading_content">
+			<p style="text-align:center;">به <span class="highlight"> وب الیستراتور </span> خوش آمدید.اینجا مکانی است برای دیده شدن هنر ها !شما میتوانید از وب سایت دیدن کنید و از عکس ها استفاده کنید !امّا اجازه ی استفاده از
+			کد وب سایت را ندارید. حهت برقراری ارتباط با مدیر به قسمت پایین سایت مراجعه کنید... و اگر در وب سایت مشکلی مشاهده می کنید لطفا گذارش کنید...باتشکر وقت خوش</p>
+		<h4>: ویژگی های وب سایت</h4><hr style="border:none;outline: none;height: 1px;width:90%;background-color: cyan;">
+		<p style="text-align: center;">: شما می توانید</p>
+		<ul>
+			<li>زبان را به فارسی یا انگلیسی تغییر دهید</li>
+			<li>قاب این وبسایت با تلفن همراه سازگار است</li>
+			<li>وقت سپری شده ی خود را در پایین وب سایت مشاهده کنید</li>
+		</ul>
+		</div>
+	</div>
+</section>
+<section id="showcase">
+ <div class="container">
+	<div class="showbase">
+		<div class="showimage sub1"></div>
+		<h2> هنر ها </h2>
+		<p>.شما میتوانید به راحتی عکس ها را از قسمت عکس ها ببینید و در صورت لزوم از انها استفاده کنید. اگر مشکلی دیدید حتما گذارش کنید</p>
+	</div>
+	<div class="showbase">
+		<div class="showimage sub2"></div>
+		<h2> طراحی وب </h2>
+		<p>طراحی وب سایت پاسخگو است و از برخی از ویژگی های استفاده می شود که در هر دستگاه و مرورگر پایدار باشند،
+وب سایت عملکردی متفاوت در مرورگرهای مختلف داشته است، اگر از عملکرد وبسایت راضی نیستید لطفا گذارش دهید.</p>
+	</div>
+	<div class="showbase">
+		<div class="showimage sub3"></div>
+		<h2> مدیریت زمان </h2>
+		<p>انتظار می رود وب سایت 24/7 به معنای 24 ساعت شبانه روز و 7 روز هفته باشد که این بدان معنی است که همیشه آنلاین و قابل دسترسی با سرعت خوب بارگیری است. اگر مشکلی در بارگیری صفحات وب دارید، می توانید اتصال اینترنتی خود را بررسی یا ممکن است سرور مشغول باشد.</p>
+	</div>
+ </div>
+</section>
+<div id="artss"></div>
+<section id="arts">
+	<div class="container">
+		<div class="arts">
+			<h2>بخش عکس ها</h2>
+			<p>تمام عکس ها متعلق به این وبسایت می باشد</p>
+         <div class="img-def def_firstchild"></div>
+         <div class="img-def def_secchild"></div>
+         <div class="img-def def_thichild"></div>
+         <div class="img-def def_fouchild"></div>
+		</div>
+	</div>
+</section>
+<footer>
+    <div class="copyright">
+	<p>تمامی حقوق برای <a title="http://www.WebIllustrator.ml" style="color:inherit;" href="http://www.WebIllustrator.ml">  این وب سایت </a> محفوظ می باشد</p>
+	<a href="#"><img title="About" src="images/icons/about_icon.png" alt="Icons haven't been shown for you...Change your browser"></a>
+		<a href="https://t.me/what_is_next" target="_blank"><img title="Telegram" src="images/icons/telegram_icon.png" alt="Icons haven't been shown for you...Change your browser"></a>
+			<a href="https://Instagram.com" target="_blank"><img title="Instagram" src="images/icons/instagram_icon.png" alt="Icons haven't been shown for you...Change your browser"></a>
+			 <p id="status"></p>
+</footer>
+</body>
+</html>
